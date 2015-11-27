@@ -10,16 +10,11 @@
         }
     ],
     "require": {
-        "hack": ">=3.9.0"
+        "hhvm": ">=3.9.0"
     },
     "autoload": {
         "psr-4": {
             "Psr\\Http\\Message\\": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
